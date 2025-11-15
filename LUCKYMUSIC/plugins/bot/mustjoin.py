@@ -21,7 +21,7 @@ LUCKY_VID = [
 
 #--------------------------
 
-MUST_JOIN = "LuckyXSupport"
+MUST_JOIN = "pr_all_bot_support"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
